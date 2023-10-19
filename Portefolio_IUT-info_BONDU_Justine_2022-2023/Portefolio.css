@@ -1,0 +1,342 @@
+nav ul {
+    list-style:none;
+    padding:center;
+    margin:center;
+	z-index: 1;
+} /*pas de marge, pas de puce*/
+
+
+nav ul li {
+    float:left;
+    padding:0px;
+    margin:0px;
+    padding-right:20px;
+} /*menu horizontal, espace séparateur 20px*/ 
+
+
+nav ul li ul  {
+    margin:0px; 
+    padding:0px; 
+    position:absolute; 
+    float:none; 
+    display:none;
+} /*pas d'affichage de sous-menu*/
+
+nav ul li:hover ul  {
+    display:block;
+    border: 1px dashed rgb(255,255,255);
+    box-shadow: 6px 6px 5px rgb(124, 134, 179);
+	background-color: rgb(179, 145, 219);
+}  /*élément menu survolé : afficher sous-menu, vertical*/
+
+nav ul li ul li {
+    margin:10px; 
+    padding:0px; 
+    float:none;
+    text-align: left;
+    margin-left: 5%;
+
+} /*élément sous-menu vertical*/ 
+
+nav ul li ul li a {
+    width:950px; 
+    display:block;
+} /*lien sous-menu : largeur élément 950px*/ 
+
+.MenuDéroul {
+    letter-spacing: 5px;
+    font-family: 'CevicheOne-Regular', arial, verdana;
+    src: url('CevicheOne-Regular.otf') format('otf');
+	
+}
+
+h4 {
+    color:#6c4a94;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration-line: underline;
+    font-family: 'CevicheOne-Regular', arial, verdana;
+    src: url('CevicheOne-Regular.otf') format('otf');
+}
+
+
+/*------------------------------------------------------------*/
+
+#titre {
+	margin-top: 25px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	width: 75%;
+	Margin: auto;
+	font-weight: bold;
+}
+
+h1 {
+    font-size: 30px;
+    color: black;
+    letter-spacing: 2.5px;
+}
+
+#titre h2 {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+header{
+	font-size: 30px;
+	background-color: #d183ff;
+	box-shadow: 6px 6px 0px #6c4a94;
+	width: 100%;
+	color: white;
+	height: 50px;
+
+	color: #6c4a94;
+	text-shadow: 2px 2px 4px #bb75e4;
+    letter-spacing: 5px;
+
+	text-align: center;
+
+    font-size: 25px;
+}
+
+header h1{
+	font-size: 50px;
+	float: right;
+	color: white;
+	margin-right: 10px;
+	margin-top: -2px;
+}
+
+header a{	
+	margin-top: 5px;
+	font-size: 20px;
+	color: #e2e2e2;
+	text-shadow: 2px 2px 4px #b6b5b5;
+    letter-spacing: 5px;
+}
+
+.C1 :hover{
+    color: red;
+}
+.C2 :hover{
+    color: orange;
+}
+.C3 :hover{
+    color: yellow;
+}
+.C4 :hover{
+    color: greenyellow;
+}
+.C5 :hover{
+    color: blue;
+}
+.C6 :hover{
+    color: blueviolet;
+}
+
+
+body{
+	background-color: #d4d8df;
+}
+
+footer{
+	background-color: #d183ff;
+	width: 100%;
+	color: #9d9999;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+
+/*------------------------------------------------------------*/
+
+.sommaire {
+	z-index: 2;
+	border: 1px dashed rgb(255,255,255);
+    box-shadow: 6px 6px 10px rgb(2, 23, 114);
+	background-color: rgb(200, 130, 233);
+	opacity: 0.9;
+	margin-top: 25px;
+	margin-left: 5%;
+	width: 85%;
+	border-radius: 5px;
+	padding: 0px 25px 25px;
+	color: #ffffff;
+
+    text-align: 25%;
+	text-shadow: 2px 2px 4px #d0d1cf;
+    letter-spacing: 5px;
+
+    font-family: 'CevicheOne-Regular', arial, verdana;
+    src: url('CevicheOne-Regular.otf') format('otf');
+	
+}
+
+.pointsomm{
+    color:rgb(162, 209, 227);
+    border: 8px solid rgb(165, 28, 28);
+    background-color: #e6839b;
+    opacity: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 75%;
+    border-radius: 2.5px;
+    padding: 0px 50px 50px 50px;
+    font-size: 20px;
+}
+
+a {
+    color:rgb(162, 209, 227);
+    font-size: 20px;
+
+}
+
+.preuve {
+	width: 80%;
+}
+
+.présentation {
+    font-size: 23px;
+    margin-left: 120px;
+    margin-right: 10px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+h5 {
+    color:rgb(162, 209, 227);
+    font-size: 20px;
+}
+
+
+
+embed{
+    margin-top: 15px;
+    border: 5px solid rgb(46, 1, 1);
+    width: 900px;
+    height: 700px;
+
+}
+
+h2 {
+    color:#f0dff6;
+    text-align: center;
+    text-transform: underline;
+    text-decoration: underline dotted;
+    font-size: 25px;
+
+
+    font-family: 'CevicheOne-Regular', arial, verdana;
+    src: url('CevicheOne-Regular.otf') format('otf');
+}
+
+hr{
+    margin-top: 2%;
+    width:75%;
+    color:#80339c;
+}
+
+img.preuve{
+    border: 5px solid rgb(46, 1, 1);
+	width: 48%;
+}
+
+img.preuve2{
+    border: 5px solid rgb(46, 1, 1);
+	width: 88%;
+}
+
+img.preuve3{
+    border: 5px solid rgb(46, 1, 1);
+	width: 32%;
+}
+
+.exemple{
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+
+/*------------------------------------------------------------*/
+
+table a {
+    color:white;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+td.coche {
+    text-align:center;
+    font-size:2em;
+    font-weight:bold;
+}
+
+caption{
+    text-align: center;
+}
+
+table {
+    border: 8px solid #6c4a94;
+}
+
+th.TabC1{
+    background-color: red;
+    color:black;
+}
+
+th.TabC2{
+    background-color: orange;
+    color:black;
+}
+
+th.TabC3{
+    background-color: yellow;
+    color:black;
+}
+
+th.TabC4{
+    background-color: greenyellow;
+    color:black;
+}
+
+th.TabC5{
+    background-color: blue;
+    color:black;
+}
+
+th.TabC6{
+    background-color: blueviolet;
+    color:black;
+}
+
+td.resources{
+    background-color: rgb(110, 106, 112);
+}
+
+td{
+    background-color: rgb(140, 135, 142);
+}
+
+
+/*------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
